@@ -9,7 +9,7 @@ class RecipesList extends StatefulWidget {
 }
 
 class _RecipesListState extends State<RecipesList> {
-  List<dynamic> _items = new List();
+  List<Recipes> _items = new List();
   RecipesService recipesService;
 
   @override
