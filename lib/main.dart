@@ -1,4 +1,4 @@
-import 'package:firstapp/screen/HomeList.dart';
+import 'package:firstapp/screen/RecipesList.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: HomeList(),
+      home: RecipesList(),
     );
   }
 }
