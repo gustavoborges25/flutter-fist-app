@@ -1,5 +1,8 @@
-import 'package:firstapp/screen/RecipesList.dart';
+import 'package:firstapp/screen/LoginForm.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' as foundation;
+
+bool get isIOS => foundation.defaultTargetPlatform == TargetPlatform.iOS;
 
 void main() => runApp(MyApp());
 
@@ -10,8 +13,9 @@ class MyApp extends StatelessWidget {
       title: 'Receitas de Família',
       theme: ThemeData(
         primarySwatch: Colors.red,
+        fontFamily: 'Raleway',
       ),
-      home: RecipesList(),
+      home: LoginForm(),
     );
   }
 }
